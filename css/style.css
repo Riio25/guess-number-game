@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .container {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  input {
+    color: white;
+    background-color: black;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .gameover {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #win {
+    color: green;
+  }
+  #lose {
+    color: red;
+  }

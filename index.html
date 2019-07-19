@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess a number game</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Would you like to play a game?</h1>
+  <h2>Guess a number between 1 - 10</h2>
+  <h3>You have <span id="lives">3</span> lives</h3>
+  <div class="container">
+  <input type="text" id="guess" placeholder="Make your guess..."> <span id="tryAgain">Try Again!</span>
+  </div>
+  <button id="answer">Final Answer</button>
+  
+  <span class="gameover" id="win">You Win!</span>
+  <span class="gameover" id="lose">You Lose!</span>
+</body>
+<script src="./js/index.js"></script>
+</html>
+
+<!-- 
+1. Check to see if box is empty, check to see if the guess in greater than 10, check to see if input is NaN, check to see if number has been guessed already
+2. Check to see if there are lives without having the button to be pressed again, disable button once game is over
+3. Create button that restarts the game
+4. Create a list of numbers that have already been guessed
+5. Change the background color of the input based on number of lives ie green with 3 lives yellow with 2 red with 1
+--> 
